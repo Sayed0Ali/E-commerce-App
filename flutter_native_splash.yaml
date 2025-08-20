@@ -1,0 +1,9 @@
+flutter_native_splash:
+  color: "#004182"
+  image: assets/images/grocery.png
+  android_12:
+    image: assets/images/grocery.png
+    color: "#004182"
+
+
+  fullscreen: true
