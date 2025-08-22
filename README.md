@@ -1,16 +1,38 @@
-# e_commerce
+# E-Commerce App
 
-A new Flutter project.
+A Flutter-based mobile application for online shopping.
+This project demonstrates clean architecture, state management with Bloc, and integration with APIs for real product handling.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+Browse products with categories.
 
-A few resources to get you started if this is your first Flutter project:
+Product details page with images & description.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Add to cart and wishlist functionality.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+User authentication (login/register).
+
+Smooth UI with Flutter and responsive design.
+
+Local caching for offline support.
+
+##Tech Stack
+
+Flutter (Dart)
+
+Bloc for state management
+
+REST API integration
+
+Hive & Cached Network Image for local caching
+
+Clean Architecture
+
+##Project Structure
+lib/
+│── core/           # App colors, styles, utils
+│── data/           # Models, data sources, repositories
+│── domain/         # Entities, use cases, repository contracts
+│── presentation/   # UI screens, widgets, blocs
+│── main.dart       # Entry point
