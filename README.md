@@ -30,9 +30,4 @@ Hive & Cached Network Image for local caching
 Clean Architecture
 
 ##Project Structure
-lib/
-│── core/           # App colors, styles, utils
-│── data/           # Models, data sources, repositories
-│── domain/         # Entities, use cases, repository contracts
-│── presentation/   # UI screens, widgets, blocs
-│── main.dart       # Entry point
+<pre> ```bash lib/ │── core/ # App colors, styles, utils │── data/ # Models, data sources, repositories │── domain/ # Entities, use cases, repository contracts │── Featurew/ # UI screens, widgets, blocs │── main.dart # Entry point ``` </pre>
