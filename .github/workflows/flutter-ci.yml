@@ -19,6 +19,10 @@ jobs:
         with:
           flutter-version: '3.24.0'
           channel: 'stable'
+      - name: Set up Dart
+        uses: dart-lang/setup-dart@v1
+        with:
+          sdk: '3.7.2'
 
       - name: Install dependencies
         run: flutter pub get
